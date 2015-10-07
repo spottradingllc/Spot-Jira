@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<JiraAuth>base64 encoded username:password; for example Basic VGVzdFVzZXI6UGFzc3dvcmQ=</JiraAuth>
+	<JiraServerName>Jira server name</JiraServerName>
+	<ProjectKey>Project Key; for example DEV</ProjectKey>
+	<ProjectName>Jira Project Name</ProjectName>
+	<Graphite>
+		<StagingAlias>Staging Graphite Name</StagingAlias>
+		<UATAlias>UAT Graphite Name</UATAlias>
+		<ProductionAlias>Production Graphite Name</ProductionAlias>
+		<PathPrefix>Graphite path prefix; for example Developers.changes</PathPrefix>
+	</Graphite>
+</Configuration>
