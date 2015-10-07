@@ -9,6 +9,8 @@ We use this module to create [Atlassian Jira tickets](https://www.atlassian.com/
 3. Make sure the files are not blocked. Right click on the files and un-block them by going into properties.
 4. Make sure to set your PowerShell Execution Policy to `RemoteSigned`, for example `Set-ExecutionPolicy RemoteSigned -Force`.
 5. Type `Get-Module -ListAvailable` and make sure you see Spot-Jira module in the list
+6. Rename *Spot-Jira-config-example.xml* configuration file to *Spot-Jira-config.xml*.
+7. Modify parameters in the configuration file
 
 ### Usage
 
